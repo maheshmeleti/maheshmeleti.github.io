@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Uma_profile_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
@@ -18,8 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there! I'm Uma. I am coming from a small town Gollaprolu, Andhra Pradesh India. I recently graduate with a Masters degree in Computer Science from Clemson Univeristy. I previously attended IIIT-RGUKT, Nuzvid, where I did my undergraduate in Electronics and Communication Engineering.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have around 4 years of experience in Machine Learning and Software Development. I have worked on various projects that involved a combination of Machine Learning, Cloud Computing and Software Development. I have hands-on experience in developing and deploying Machine Learning models in the on-premises and on-cloud environmens.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am passonate about solving problems that involve in AI, Mathematics and Software Development. I am always looking for opportunities to work on challenging problems that can make a difference in the world.

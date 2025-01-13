@@ -3,6 +3,8 @@ require 'httparty'
 require 'jekyll'
 require 'nokogiri'
 require 'time'
+require 'openssl'
+OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 
 module ExternalPosts
   class ExternalPostsGenerator < Jekyll::Generator

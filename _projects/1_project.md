@@ -1,81 +1,135 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Brush Stroke Parameterized Style Transfer
+description: A brush stoke parameterized representation using beizer curves to represent artistic style
+img: assets/img/brush_stroke/Method.png
 importance: 1
 category: work
-related_publications: true
+giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div style="display: flex; gap: 10px;">
+  <a href="https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch">
+    <img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/mahesh-meleti/">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="paper/BrushStroke_StyleTransfer.pdf">
+    <img src="https://img.shields.io/badge/Project-Paper-blue" alt="Paper">
+  </a>
+  <a href="paper/final_project_presentation.pdf">
+    <img src="https://img.shields.io/badge/Course-Presentation-blue" alt="Presentation">
+  </a>
+  <a href="https://maheshmeleti.github.io/param-brushstroke/">
+    <img src="https://img.shields.io/badge/Project-Website-blue" alt="Project Website">
+  </a>
+  <a href="https://sites.google.com/view/cpsc8810-2024fall/home">
+    <img src="https://img.shields.io/badge/Course-page-blue" alt="course-link">
+  </a>
+</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div style="margin-top: 10px;"></div>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+## Abstract
+
+Computer Vision-based Style Transfer techniques have been used for many years to represent artistic style. However, most contemporary methods have been restricted to the pixel domain; in other words, the style transfer approach has been modifying the image pixels to incorporate artistic style. However, real artistic work is made of brush strokes with different colors on a canvas. Pixel-based approaches are unnatural for representing these images. Hence, this paper discusses a style transfer method that represents the image in the brush stroke domain instead of the RGB domain, which has better visual improvement over pixel-based methods.
+
+## Methodology
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/brush_stroke/Method.png" title="Methodology" class="img-fluid rounded z-depth-1" style="width: 70%; height: 70%;" %}
     </div>
+</div>
+
+
+## Results
+
+### Video Result
+
+This is an example post with videos. It supports local video files.
+
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/video/brush_stroke/road.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true width="100%" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    This video demonstrates the application of the parameterized brush strokes optimization using content and style transfer.
 </div>
+
+### Image Results
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/brush_stroke/bridge.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    This image shows the result of applying the style transfer technique to content image - Golden Gate Bridge and Style image Van Gogh\'s Starry Night. Notice the intricate brush strokes and the overall artistic transformation.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/brush_stroke/strokes_zoomed.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Zoomed in view of brush strokes and texture after pixel optimization
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/brush_stroke/me.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Style transfer applied on human (It's me in the photo :) 
+</div>
 
-{% endraw %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/brush_stroke/Olive_tree_garden.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The style transfer is applied to Olive garden with stylization using the famous The stone Bench in the Garden of Saint-Paul Hospital by Van Gogh
+</div>
+
+## Social and Other Links
+
+<div style="display: flex; gap: 10px;">
+  <a href="https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch">
+    <img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/mahesh-meleti/">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="paper/BrushStroke_StyleTransfer.pdf">
+    <img src="https://img.shields.io/badge/Project-Paper-blue" alt="Paper">
+  </a>
+  <a href="paper/final_project_presentation.pdf">
+    <img src="https://img.shields.io/badge/Course-Presentation-blue" alt="Presentation">
+  </a>
+  <a href="https://maheshmeleti.github.io/param-brushstroke/">
+    <img src="https://img.shields.io/badge/Project-Website-blue" alt="Project Website">
+  </a>
+  <a href="https://sites.google.com/view/cpsc8810-2024fall/home">
+    <img src="https://img.shields.io/badge/Course-page-blue" alt="course-link">
+  </a>
+</div>
+
+## References
+
+@article{kotovenko_cvpr_2021,
+    title={Rethinking Style Transfer: From Pixels to Parameterized Brushstrokes},
+    author={Dmytro Kotovenko and Matthias Wright and Arthur Heimbrecht and Bj{\"o}rn Ommer},
+    journal={CVPR},
+    year={2021}
+}
+
+## Citation
+
+@misc{meleti2024brushstroke, title={Brush Stroke Parameterized Style Transfer}, author={Uma Maheswara R Meleti}, year={2024}, url={https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch}, } -->

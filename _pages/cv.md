@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description:  Dedicated Machine Learning Engineer with expertise in Computer Vision, Natural Language Processing, Cloud Computing,and MLOps. I bring extensive hands-on experience in developing AI models, fine-tuning, and orchestrating continuous machine learning pipelines. Passionate about solving problems that combine AI, mathematics and software engineering.
 toc:
   sidebar: left
 ---

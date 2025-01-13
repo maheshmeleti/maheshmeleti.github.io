@@ -1,11 +1,10 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Uma Maheswara R Meleti",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "maheshmeleti350@gmail.com",
+    "phone": "(864) 765-7139",
+    "url": "https://maheshmeleti.github.io/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "2712 Broadway St",
@@ -24,40 +23,145 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "School of computing - Clemson University",
+      "position": "Graduate Teaching Assistant",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "startDate": "Aug-2023",
+      "endDate": "Dec-2024",
+      "summary": " Assisted Cloud Computing, Discrete Math., Data Structures & Algorithms courses."
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
+      "name": "  Musco Sports Lighting",
+      "position": "Machine Learning Intern",
       "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "startDate": "May-2024",
+      "endDate": "Aug-2024",
+      "summary": "Developed computer vision software for a AI-based sports assistance product."
+    },
+    {
+      "name": "School of computing - Clemson University",
+      "position": "Graduate Research Assistant",
+      "url": "https://example.com",
+      "startDate": "Jan-2023",
+      "endDate": "Aug-2024",
+      "summary": "Research on video-based machine learning for drone-based wild-fire management."
+    },
+    {
+      "name": " Aira Matrix",
+      "position": "Lead Engineer - A.I",
+      "url": "https://example.com",
+      "startDate": "Dec-2020",
+      "endDate": "Dec-2022",
+      "summary": "Worked on Deep learning for drug discovery and cancer research."
+    },
+    {
+      "name": "  Brane Enterprises",
+      "position": " Machine Learning Engineer",
+      "url": "https://example.com",
+      "startDate": "Jul-2019",
+      "endDate": "Dec-2020",
+      "summary": "Worked with the early-stage start-up on various AI projects."
     }
+
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
+      "institution": "Clemson University",
+      "location": "Clemson, USA",
       "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "area": "Computer Science",
+      "studyType": "Masters",
+      "startDate": "2023-01",
+      "endDate": "2024-12",
+      "score": "3.93/4.0",
+      "courses": ["CPSC 6820 AI Autonomous Vehicles","CPSC 8430 Deep Learning", "MATH 8050 Data Analysis",
+                  "CPSC 6440 Cloud Computing Architecture",
+                  "CPSC 6620 Database Management Systems",
+                  "CPSC 8420 Advanced Machine Learning",
+                  "CPSC 6720 Software Development Methodology",
+                  "CPSC 8570 Network Technologies Security",
+                  "CPSC 8650 Data Mining",
+                  "CPSC 8810 Machine Learning-based Image Synthesis"]
+    },
+    {
+      "institution": "IIIT-RGUKT",
+      "location": "Nuzvid, India",
+      "url": "https://www.uzh.ch/",
+      "area": "Electronics and Communication Engineering",
+      "studyType": "Bachelors",
+      "startDate": "2015-06",
+      "endDate": "2019-04",
+      "score": "9.31/10.0",
+      "courses": ["Probability and Stochastic Processes", 
+                  "Programming and Data Structures", 
+                  "Engineering Mathematics",
+                  "Engineering Physics", 
+                  "Java & OOPS", 
+                  "Artificial Intelligence",
+                  "Analog & Digital Electronics", 
+                  "Micro Processors & Micro Controllers",
+                  "Very Large Scale Integration Design", 
+                  "Analog & Digital Communications",
+                  "Pattern Recognition",
+                  "Embedded Systems"]
+    }
+    
+
+  ],
+
+  "certificates": [
+    {
+      "name": "Machine Learning",
+      "date": "2018-10",
+      "issuer": "University of Washington",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/6GWF3NKHUEBT",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Deep Learning",
+      "date": "2018-10",
+      "issuer": "Deep Learning.ai",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/82MVDQ3TRTHL",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Solutions Architect",
+      "date": "2024-12",
+      "issuer": "Amazon Web Services",
+      "url": "https://cp.certmetrics.com/amazon/en/public/verify/credential/91fb81d379d246348b0f8c29da70d58c",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "MLOps",
+      "date": "2024-11",
+      "issuer": "Duke University",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/Y4QY0PIJ1991",
+      "icon": "fa-solid fa-hashtag"
     }
   ],
+
+  "volunteer": [
+    {
+      "organization": "Helping Hands",
+      "location": "Nuzvid, India",
+      "position": "Representative",
+      "url": "https://example.com",
+      "startDate": "2014-08",
+      "endDate": "2019-04",
+      "summary": "As a volunteer with Helping Hands, a non-profit organization focused on supporting underprivileged students, I actively participated in fundraising efforts. I organized weekly donation drives, collecting and submitting all contributions promptly. Beyond fundraising, I carefully reviewed and validated student aid requests to confirm their authenticity before recommending them for organizational support. My work provided educational assistance and opportunities for needy students through these efforts."
+    },
+    {
+      "organization": "Internationla and Alumni Relations Cell",
+      "location": "Nuzvid, India",
+      "position": "volunteer",
+      "url": "https://example.com",
+      "startDate": "2016-07",
+      "endDate": "2018-04",
+      "summary": "As a volunteer with the International and Alumni Relations Cell, I actively enhanced the university's external relationships by collecting and managing alumni data. I contributed to organizing alumni events and fostering meaningful connections between alumni and the university community. Additionally, I was instrumental in fundraising initiatives, supporting the cell's mission to build and sustain a strong, supportive alumni network."
+    }
+
+  ],
+
   "awards": [
     {
       "title": "Nobel Prize in Physics",
@@ -65,50 +169,6 @@
       "awarder": "Royal Swedish Academy of Sciences",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
