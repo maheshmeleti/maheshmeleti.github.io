@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Brush Stroke Parameterized Style Transfer1
-description: A brush stoke parameterized representation using beizer curves to represent artistic style
-img: assets/img/brush_stroke/Method.png
-importance: 1
+title: Butterfly Mating Optimization
+description:  Optimization Algorithm for local and global optimization problems inspired by the mating behavior of butterflies.
+img: assets/img/BMO/BMO.jpg
+importance: 3
 category: work
 giscus_comments: true
-github: https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch
+github: https://github.com/maheshmeleti/Butterfly-Mating-Optimization
 ---
