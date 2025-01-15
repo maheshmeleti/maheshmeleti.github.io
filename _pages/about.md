@@ -18,6 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+#<div style="color:red">Portfolio under construction</div>
+
 Hi there! I'm Uma. I am coming from a small town Gollaprolu, Andhra Pradesh India. I recently graduate with a Masters degree in Computer Science from Clemson Univeristy. I previously attended IIIT-RGUKT, Nuzvid, where I did my undergraduate in Electronics and Communication Engineering.
 
 I have around 4 years of experience in Machine Learning and Software Development. I have worked on various projects that involved a combination of Machine Learning, Cloud Computing and Software Development. I have hands-on experience in developing and deploying Machine Learning models in the on-premises and on-cloud environmens.
