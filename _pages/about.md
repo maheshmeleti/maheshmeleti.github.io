@@ -18,7 +18,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-#<div style="color:red">Portfolio under construction</div>
+<div style="color:red; font-size: 2em; font-weight: bold; animation: blinker 1s linear infinite;">
+  ***Portfolio under construction***
+</div>
+
+<style>
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+</style>
 
 Hi there! I'm Uma. I am coming from a small town Gollaprolu, Andhra Pradesh India. I recently graduate with a Masters degree in Computer Science from Clemson Univeristy. I previously attended IIIT-RGUKT, Nuzvid, where I did my undergraduate in Electronics and Communication Engineering.
 
