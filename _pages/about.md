@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<div style="color:red; font-size: 2em; font-weight: bold; animation: blinker 1s linear infinite;">
+<!-- <div style="color:red; font-size: 2em; font-weight: bold; animation: blinker 1s linear infinite;">
   ***Portfolio under construction***
 </div>
 
@@ -26,10 +26,15 @@ social: true # includes social icons at the bottom of the page
 @keyframes blinker {
   50% { opacity: 0; }
 }
-</style>
+</style> -->
 
-Hi there! I'm Uma. I am coming from a small town Gollaprolu, Andhra Pradesh India. I recently graduate with a Masters degree in Computer Science from Clemson Univeristy. I previously attended IIIT-RGUKT, Nuzvid, where I did my undergraduate in Electronics and Communication Engineering.
+Hi, I'm Uma! I'm from Gollaprolu 🏠, a charming small town in Andhra Pradesh, India 🇮🇳. I recently earned my Master's degree in Computer Science from Clemson University 🎓, building on my undergraduate education in Electronics and Communication Engineering at IIIT-RGUKT, Nuzvid 🏫.
 
-I have around 4 years of experience in Machine Learning and Software Development. I have worked on various projects that involved a combination of Machine Learning, Cloud Computing and Software Development. I have hands-on experience in developing and deploying Machine Learning models in the on-premises and on-cloud environmens.
+With around four years of professionl experience in Machine Learning and Software Development 👨‍💻, I have worked on diverse projects that intersect Machine Learning, Cloud Computing, and Software Engineering. My expertise lies in deploying complex machine learning models on edge devices and cloud environments. I’m deeply passionate about solving challenges in AI, Mathematics, and Software Engineering.
 
-I am passonate about solving problems that involve in AI, Mathematics and Software Development. I am always looking for opportunities to work on challenging problems that can make a difference in the world.
+When I’m not working, you’ll likely find me playing table tennis 🏓 or badminton 🏸, catching a movie 🍿, or diving into a good book 📖. Currently, I’m enjoying The Vegetarian by Han Kang and Thinking, Fast and Slow by Daniel Kahneman. I also have a love for cooking 🔪, especially Indian cuisine. My butter chicken and biryani are family favorites!
+
+I’m currently based in the United States 🇺🇸 and actively exploring new opportunities. If you think I’d be a great addition to your team or have an opportunity that matches my skills, feel free to reach out at maheshmeleti350@gmail.com.
+
+Let’s connect and create something incredible together!
+
