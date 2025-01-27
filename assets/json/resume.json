@@ -152,7 +152,16 @@
       "title": "Student Acheivement Award",
       "date": "May 2016",
       "awarder": "National Space Society and NASA"
+    },
+    {"title":"1st Place in Space Settlement Contest",
+    "date":"Aug 2015",
+    "awarder":"NASA Ames Research Center"
+    },
+    {"title":"National Means-cum-Merit Scholarship",
+    "date":"Nov 2010",
+    "awarder":"Ministry of Education, India"
     }
+
   ],
   
   "skills": [
@@ -199,18 +208,18 @@
   ],
   "languages": [
     {
+      "language": "Telugu",
+      "fluency": "",
+      "icon": ""
+    },
+    {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "",
       "icon": ""
     },
     {
       "language": "Hindi",
-      "fluency": "Fluent",
-      "icon": ""
-    },
-    {
-      "language": "Hindi",
-      "fluency": "Native",
+      "fluency": "",
       "icon": ""
     }
   ]

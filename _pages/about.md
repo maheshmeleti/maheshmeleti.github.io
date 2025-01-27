@@ -23,7 +23,7 @@ social: true # includes social icons at the bottom of the page
 </div>
 
 <style>
-@keyframes blinker {
+@keyframes blinker { 
   50% { opacity: 0; }
 }
 </style> -->
